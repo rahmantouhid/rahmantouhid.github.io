@@ -674,72 +674,8 @@
             .qualification-button.qualification-active {
                 color: var(--color-primary);
             }
-            /*========== Experience ==========*/
-            
-            .education {
-                flex: 0 0 50%;
-                max-width: 50%;
-            }
-            
-            .experience {
-                flex: 0 0 50%;
-                max-width: 50%;
-            }
-            
-            .timeline-box {
-                flex: 0 0 100%;
-                max-width: 100%;
-            }
-            
-            .timeline {
-                background-color: var(--color-white);
-                padding: 1.9rem 0.95rem;
-                border-radius: var(--border-radius);
-                width: 100%;
-                position: relative;
-            }
-            
-            .timeline .timeline-item {
-                position: relative;
-                padding-left: 2.5rem;
-                padding-bottom: 1.9rem;
-            }
-            
-            .timeline .timeline-item:last-child {
-                padding-bottom: 0;
-            }
-            
-            .timeline .timeline-item::before {
-                content: '';
-                width: 1px;
-                position: absolute;
-                height: 100%;
-                left: var(--m-0-5);
-                background-color: var(--color-primary);
-                top: 0;
-            }
-            
-            .timeline .timeline-icon {
-                position: absolute;
-                left: -0.25rem;
-                top: 0;
-                font-size: 1.5rem;
-                background-color: var(--color-white);
-                color: var(--color-primary);
-            }
-            
-            .timeline .time-date {
-                font-size: var(--small-font-size);
-                color: var(--color-gray);
-            }
-            
-            .timeline .timeline-date .lni {
-                margin-right: 0.3rem;
-            }
-            
-            .timeline .timeline-title {
-                margin: var(--m-0-75) 0;
-            }
+          
+         
             /*========== Pricing ==========*/
             
             .prices {
@@ -1395,7 +1331,7 @@ border: none;
                 color: var(--color-primary);
                 /* color: var(--color-font); */
                 font-weight: normal;
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
             
             .footer h4 {
@@ -1805,13 +1741,7 @@ border: none;
                     max-width: 380px;
                     margin: 0 auto;
                 }
-                .timeline {
-                    padding: 25px 20px;
-                }
-                .timeline .timeline-item {
-                    padding-left: 35px;
-                    padding-bottom: 20px;
-                }
+              
                 .customize-theme .card {
                     width: 96vw;
                     padding: 1rem;
@@ -1854,6 +1784,32 @@ border: none;
                   font-size: .8rem;
                    
                 }
+                .qualification-data {
+                    padding: 0 10px;
+                    margin-left: 10px;
+                    margin-bottom: 30px;
+                    display: grid;
+                    grid-template-columns: 1fr max-content 1fr;
+                    column-gap: 1.5rem;
+                }
+                
+                .qualification-data h3 {
+                    font-size: 1rem;
+                }
+                .qualification-data span {
+                    font-size: .8rem;
+                }
+                .qualification-rounder {
+                    margin-left: -10px;
+                    margin-right: 10px;
+                    
+                }
+                
+                .qualification-line {
+                    margin-left: -10px;
+                    margin-right: 10px;
+                }
+                
             }
             
             @media only screen and (max-width:320px) {
