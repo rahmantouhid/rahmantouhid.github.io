@@ -74,6 +74,11 @@
                                         }
                                         /*========== Base ==========*/
                                         
+										.DP{
+											height:200PX;
+											width:200PX;
+											border-radius:50%;
+										}
                                         * {
                                             margin: 0;
                                             padding: 0;
@@ -340,7 +345,14 @@
                                         .intro .button {
                                             padding: .5rem;
                                         }
+                                        .home-img {
+                                            max-width: 200px;
+                                            border-radius: 50%;
+                                            justify-self: center;
+                                            margin-bottom: 60px;
+                                        }
                                         
+                                   
                                         .stroke {
                                             color: var(--color-font);
                                             background-color: transparent;
@@ -466,7 +478,7 @@
                                             display: block;
                                             animation: ani-mouse 2s linear infinite;
                                         }
-                                        /*========== About ==========*/
+                                        /*========== 	 ==========*/
                                         
                                         .about {
                                             align-items: center;
@@ -487,8 +499,8 @@
                                         }
                                         
                                         .about-img {
-                                            max-width: 220px;
-                                            border-radius: 1.5rem;
+                                            max-width: 150px;
+                                            border-radius: 50%;
                                             justify-self: center;
                                             margin-bottom: 60px;
                                         }
@@ -1443,6 +1455,7 @@ border: none;
                                             border: none;
                                             margin-top: 30px;
                                             cursor: pointer;
+											
                                         }
                                         
                                         .customize-theme .font-size {
